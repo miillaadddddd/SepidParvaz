@@ -5,9 +5,16 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className="h-screen  flex justify-center items-center">
-      <Button title="Confirm"/>
-      <Button title="Reject" type="reject"/>
+    <div className="h-screen  flex justify-center items-center bg-gray-100">
+
+      <div className="h-2/3 w-1/2 bg-white rounded-3xl shadow-lg z-10 ">
+
+      <div className="flex justify-center items-end">
+        <Button title="Confirm"/>
+        <Button title="Reject" type="reject"/>
+      </div>
+
+      </div>
 
       <footer>
         <div className="fixed bottom-[-50px] left-0 right-0">
