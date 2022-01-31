@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Button() {
+function Button({type, title, onClick=()=>{}}) {
   return <> 
-  <button className=' p-40  bg-sky-50 rounded-md'>Milad</button>
+  <button onClick={onClick} style={{backgroundColor: type == 'reject' ? "#ff4f7d" :"#4f7dff"}}  className=' py-4 px-8 text-xl text-white font-semibold rounded-3xl shadow-lg duration-200 hover:scale-125   '>{title}</button>
   </>;
 }
 
