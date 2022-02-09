@@ -1,8 +1,6 @@
-import Head from "next/head";
 import Image from "next/image";
-import Button from "../components/ui/Button/Button";
-import Input from "../components/ui/Input/Input";
-import Search from "../components/ui/Search/Search";
+import { Button, Input, Search } from "../components/ui";
+
 import styles from "../styles/Home.module.css";
 const inputs = [
   "Registrater name",
