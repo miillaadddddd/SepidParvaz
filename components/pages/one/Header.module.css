@@ -1,0 +1,12 @@
+.cricle {
+    @apply flex items-center justify-center w-40 h-40 m-8 border-2 rounded-full cursor-pointer border-cyan-600;
+}
+.plusBtn {
+    @apply text-5xl font-black text-cyan-600;
+}
+.header {
+    @apply flex flex-col items-center justify-center grow;
+}
+.header_title {
+    @apply font-black text-primaryb block mb-2;
+}
