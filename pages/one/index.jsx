@@ -1,4 +1,5 @@
 import React from "react";
+import EditPart from "../../components/pages/one/EditPart";
 import Header from "../../components/pages/one/Header";
 
 function One() {
@@ -8,6 +9,7 @@ function One() {
       <Header />
 
       {/* Edit Part */}
+      <EditPart />
 
       {/* winner List */}
 
