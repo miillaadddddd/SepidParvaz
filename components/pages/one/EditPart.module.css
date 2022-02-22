@@ -2,7 +2,7 @@
     @apply relative flex justify-center mt-11;
 }
 .informationContainer {
-    @apply bg-white rounded-xl w-[70%] flex flex-row justify-between shadow-inner;
+    @apply bg-white rounded-xl w-[70%] flex flex-row justify-between shadow-2xl;
 }
 .adminContainer {
     margin: 0 30px;

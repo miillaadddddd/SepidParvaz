@@ -1,0 +1,4 @@
+.container {
+    @apply flex items-center justify-center bg-white rounded-2xl w-[260px] h-[130px] shadow-2xl;
+    direction: ltr;
+}

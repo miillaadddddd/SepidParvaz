@@ -9,7 +9,7 @@ function AppText({ text, title }) {
         </span>
       )}
       {text && (
-        <span className="block my-4 text-xl text-left text-primary">
+        <span className="block my-4 text-xl font-light text-left text-gray-500">
           {text}
         </span>
       )}
