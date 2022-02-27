@@ -10,13 +10,13 @@ function WinnerPart() {
       </div>
       <div className="relative flex justify-center mt-10 ">
         <div className="relative mx-1 top-5">
-          <AppCart />
+          <AppCart icon="bronzeMedal" border />
         </div>
         <div className="relative mx-5 bottom-10">
-          <AppCart />
+          <AppCart border />
         </div>
         <div className="relative mx-1 top-5">
-          <AppCart />
+          <AppCart icon="silverMedal" border />
         </div>
       </div>
     </>
