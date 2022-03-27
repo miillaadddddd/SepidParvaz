@@ -1,4 +1,5 @@
 import React from "react";
+import ChartPart from "../../components/pages/one/ChartPart";
 import EditPart from "../../components/pages/one/EditPart";
 import Header from "../../components/pages/one/Header";
 import WinnerPart from "../../components/pages/one/WinnerPart";
@@ -16,6 +17,7 @@ function One() {
       <WinnerPart />
 
       {/* table games */}
+      <ChartPart />
 
       {/* paginations */}
     </div>
